@@ -10,7 +10,7 @@ class HelloApiView(APIView):
         an_apiview = [
             'Uses HTTP methods as function (get, post, patch, put, delete)',
             'Is similar to a traditional Django View',
-            'Gives you the most control over your application logic'
+            'Gives you the most control over your application logic',
             'Is mapped manually to URLs'
         ]
 
