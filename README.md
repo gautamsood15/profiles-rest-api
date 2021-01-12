@@ -1,6 +1,6 @@
 # Profiles REST API
 
-This is the supplementary cheat sheet document for This project: [Profiles REST API](ec2-52-66-206-7.ap-south-1.compute.amazonaws.com)
+This is the supplementary cheat sheet document for This project:
 
 Creating a REST API in Python to manage users Profiles. Application is deployed over AWS.
 
