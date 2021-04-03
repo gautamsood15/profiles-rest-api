@@ -1,4 +1,4 @@
-from rest_framework.views import APIView
+f rom rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import viewsets
@@ -51,7 +51,7 @@ class HelloApiView(APIView):
 class HelloViewSet(viewsets.ViewSet):
     """Test API ViewSet"""
 
-    def list(self request):
+    def list(self, request):
         """Return a hello message"""
         a_viewset = [
             'Uses actions (list, create, retrieve, update, partial_update)',
