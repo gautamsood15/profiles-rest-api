@@ -139,6 +139,7 @@ connect to AWS server -> ssh ubuntu@[Public IPv4 DNS]
 
 setup.sh on the AWS server -> curl -sL [raw path of setup.sh in github] | sudo bash -
 
+Run django on server -> sudo env/bin/python manage.py createsuperuser
 
 
 
@@ -210,6 +211,9 @@ setup.sh on the AWS server -> curl -sL [raw path of setup.sh in github] | sudo b
 --------------------------------------------------------------------------------
 
 admin id -- gauty22@gmail.com
-password -- 12345
+admin password -- 12345
 ssh passcode -- 123456
 profile password -- password@123
+
+AWS admin ID -- testuser@django.com
+AWS password -- 123456
