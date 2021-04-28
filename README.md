@@ -4,7 +4,7 @@ Creating a REST API in Python to manage users Profiles. Application is deployed 
 
 deploy/setup.sh --> To setup the application on server
 deploy/update.sh --> To update the application with the latest updates
-
+path of app on server -- /usr/local/apps/profiles-rest-api
 
 --------------------------------------------------------------------------------
 
@@ -211,6 +211,5 @@ setup.sh on the AWS server -> curl -sL [raw path of setup.sh in github] | sudo b
 
 admin id -- gauty22@gmail.com
 password -- 12345
-
-
+ssh passcode -- 123456
 profile password -- password@123
