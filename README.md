@@ -136,7 +136,9 @@ cd ..
 
 ### AWS server
 connect to AWS server -> ssh ubuntu@[Public IPv4 DNS]
-setup.sh on the AWS server -> curl -sL [raw path of setup.sh in github]
+
+setup.sh on the AWS server -> curl -sL [raw path of setup.sh in github] | sudo bash -
+
 
 
 
