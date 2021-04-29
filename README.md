@@ -1,6 +1,9 @@
 # Profiles REST API
 
-Creating a REST API in Python to manage users Profiles. Application is deployed over AWS 
+Creating a REST API in Python to manage users Profiles. Application is deployed over AWS.
+
+deploy/setup.sh --> To setup the application on server
+deploy/update.sh --> To update the application with the latest updates
 
 
 ## Functions of the API:
