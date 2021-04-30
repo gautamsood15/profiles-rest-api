@@ -1,6 +1,7 @@
 # Profiles REST API
 
-Creating a REST API in Python to manage users Profiles
+Creating a REST API in Python to manage users Profiles.
+The application also consists of a TokenAuthentication functionality
 
 
 ## Functions of the API:
