@@ -33,3 +33,9 @@ Creating a REST API in Python to manage users Profiles
     -> View specific profile details by using HTTP GET
     -> Update object using HTTP PUT / PATCH
     -> Remove it completely using HTTP DELETE
+
+
+
+
+admin id -- gauty22@gmail.com
+password -- 12345
