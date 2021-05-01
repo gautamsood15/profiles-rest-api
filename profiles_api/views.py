@@ -5,7 +5,6 @@ from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework import filters
 
-
 from profiles_api import serializers
 from profiles_api import models
 from profiles_api import permissions
