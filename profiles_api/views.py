@@ -50,7 +50,7 @@ class HelloApiView(APIView):
 
 class HelloViewSet(viewsets.ViewSet):
     """Test API ViewSet"""
-    serializer_class = serializer.HelloSerializer
+    serializer_class = serializers.HelloSerializer
 
     def list(self, request):
         """Return a hello message"""
@@ -73,7 +73,7 @@ class HelloViewSet(viewsets.ViewSet):
             message = f'Hello {name}!'
             return Response({'message': message})
 
-        else::
+        else:
             return Response(
                 serializer.errors,
                 status=status.HTTP_400_BAD_REQUEST
