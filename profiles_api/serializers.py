@@ -30,3 +30,12 @@ class UserProfileSerializer(serializers.ModelSerializer):
         )
 
         return user
+
+
+
+class ProfileFeedITemSerializer(serializers.ModelSerializer):
+    """Serializers profile feed items"""
+
+    class Meta:
+        model = models.ProfileFeedItem
+        
