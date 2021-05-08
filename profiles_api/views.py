@@ -8,7 +8,6 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.settings import api_settings
 from rest_framework.permissions import IsAuthenticated
 
-
 from profiles_api import serializers
 from profiles_api import models
 from profiles_api import permissions
