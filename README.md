@@ -40,3 +40,6 @@ The application also consists of a TokenAuthentication functionality
 
 admin id -- gauty22@gmail.com
 password -- 12345
+
+profile ID -- gauty22@gmail.com
+profile password -- password@123
