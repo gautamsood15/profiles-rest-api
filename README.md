@@ -36,6 +36,13 @@ The application also consists of a TokenAuthentication functionality
     -> Remove it completely using HTTP DELETE
 
 
+## Functions of Feed API.
+    -> Creating new feed items -- Logged in users only
+    -> Update feed items -- Logged in users only
+    -> Deleting profile feed items -- Logged in users only
+    -> Viewing other profile status updates -- All users
+
+
 
 
 admin id -- gauty22@gmail.com
