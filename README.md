@@ -36,11 +36,31 @@ The application also consists of a TokenAuthentication functionality
     -> Remove it completely using HTTP DELETE
 
 
-## Functions of Feed API.
+
+
+## Functions of Feed API:
+
     -> Creating new feed items -- Logged in users only
     -> Update feed items -- Logged in users only
     -> Deleting profile feed items -- Logged in users only
     -> Viewing other profile status updates -- All users
+
+
+
+
+## URLs of the Feed API:
+
+### 1. /api/feed/
+    -> list all feed items
+    -> GET (list feed items)
+    -> POST (create feed item for logged in user)
+
+### 2. /api/feed/<feed_item_id>/
+    -> manage specific feed items
+    -> GET (get the feed item)
+    -> PUT/PATCH (update feed item)
+    -> DELETE (delete feed item)
+
 
 
 
