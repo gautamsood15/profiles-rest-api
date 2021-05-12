@@ -9,3 +9,11 @@ class UpdateOwnProfile(permissions.BasePermission):
             return True
 
         return obj.id == request.user.id
+
+
+class UpdateOwnStatus(permissions.BasePermission):
+    """Allow users to update their own status"""
+
+    def has_object_permission(self, request, view, obj):
+        """Check if the user is trying to update Their own status"""
+        
