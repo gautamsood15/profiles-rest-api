@@ -1,6 +1,6 @@
 # Profiles REST API
 
-This is the supplementary cheat sheet document for This project: [Build a Backend REST API with Python & Django - Beginner](https://londonapp.dev/c1)
+This is the supplementary cheat sheet document for This project: [Profiles REST API](ec2-52-66-206-7.ap-south-1.compute.amazonaws.com)
 
 Creating a REST API in Python to manage users Profiles. Application is deployed over AWS.
 
